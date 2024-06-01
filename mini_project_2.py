@@ -14,7 +14,7 @@ res = roll()
 if res == 7 or res == 11:
   print("You win!")
 if res == 2 or res == 3 or res == 12:
-  print("You lose. Game over")
+  print("You lose. Game over.")
 else:
   goal = res
   print(f"New goal is {goal}")
